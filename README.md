@@ -8,10 +8,8 @@
 
 ## 👨‍💻 AboutMe
 
-Passionate Junior .NET Developer proficient in ASP.NET Core MVC, C#, LINQ and Entity Framework Core. Specialized in 
-creating optimized data models and RESTful APIs following SOLID principles, Design Patterns and Clean 
-Architecture. Strong expertise in API development and MVC implementation
-
+Junior backend developer with hands-on experience building scalable web applications across diverse industries and business domains.
+Skilled at turning complex requirements into maintainable solutions, focusing on code quality and teamwork. Motivated to learn, grow, and deliver high-quality software that adds real value for users and organizations
 ---
 
 ## 📂 Projects
