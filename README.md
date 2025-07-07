@@ -14,6 +14,16 @@ Skilled at turning complex requirements into maintainable solutions, focusing on
 
 ## 📂 Projects
 
+### FoodFlow
+- Designed and developed a modern backend system for food delivery and restaurant management, inspired by platforms like UberEats.
+- Enables users to browse restaurants, place orders, and allows restaurant owners to manage menus and track orders efficiently.
+- Built secure RESTful APIs with authentication, authorization, order tracking, audit logging, error handling, and automated API documentation.
+- Optimized data validation, database access, and system performance with caching, pagination, and background jobs.
+
+**Technologies Used:** ASP.NET Core, Web API, Entity Framework Core, SQL Server, LINQ, Identity, JWT, Repository Pattern, Unit of Work, FluentValidation, AutoMapper, HealthChecks, CORS, Swagger, Serilog, Hangfire
+
+---
+
 ### Survey Basket
 - Built efficient survey platform for creating, sharing and analyzing polls with thousands of responses
 - Implemented secure role-based user authentication system protecting sensitive data
@@ -22,29 +32,25 @@ Skilled at turning complex requirements into maintainable solutions, focusing on
 
 **Technologies:**  ASP.NET Core, Web API, Entity Framework Core, SQL Server, LINQ, Identity, JWT, Result Pattern, Repository Pattern, Unit of Work, Hangfire, Mapster, Serilog, MailKit, FluentValidation, OpenAPI/Swagger, Rate Limiting, HealthChecks, Hybrid Caching, API Versioning, CORS, OneOf, SMTP
 
-
+---
 
 ### Raknah (Smart Parking System)
-- Built smart parking system for finding, reserving, and accessing spots with integrated hardware gate 
-Control
+- Built smart parking system for finding, reserving, and accessing spots with integrated hardware gate Control
 - Implemented reservations with real-time updates and automated email notifications
 - Connected software with physical infrastructure for seamless end-to-end solution
 - Created user authentication with secure account and reservation management
 
 **Technologies Used:** ASP.NET Core, Entity Framework Core, SQL Server, LINQ, Identity, JWT, Hangfire, Mapster, Serilog, MailKit, MimeKit, Repository Pattern, Clean Architecture, FluentValidation, Swagger, HttpClient, ESP32
 
+---
+
 ### Bookfiy (Library Managment System)
-- Built comprehensive digital library management system for creating, tracking, and managing books,
- subscribers, and rentals
--  Implemented secure role-based user authentication with Identity, protecting sensitive library data and 
-operations
-- Created multilingual support with localization capabilities and developed reporting system for insights 
-on books and rentals
-- Designed automated notification system using Hangfire for rental expiration alerts via email and 
-WhatsApp
+- Built comprehensive digital library management system for creating, tracking, and managing books, subscribers, and rentals
+- Implemented secure role-based user authentication with Identity, protecting sensitive library data and operations
+- Created multilingual support with localization capabilities and developed reporting system for insights on books and rentals
+- Designed automated notification system using Hangfire for rental expiration alerts via email and WhatsApp
 
 **Technologies Used:** ASP.NET Core, MVC, Entity Framework Core, SQL Server, LINQ, Identity, JWT, Hangfire, AutoMapper, Serilog, Cloudinary, ClosedXML, Repository Pattern, Clean Architecture, FluentValidation, Bootstrap, jQuery
-
 
 
 ---
