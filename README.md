@@ -8,9 +8,24 @@
 
 ## 👨‍💻 AboutMe
 
-Junior backend developer with hands-on experience building scalable web applications across diverse industries and business domains.
-Skilled at turning complex requirements into maintainable solutions, focusing on code quality and teamwork. Motivated to learn, grow, and deliver high-quality software that adds real value for users and organizations
+Backend developer with +1 year of experience in building scalable and maintainable web applications across
+different domains. Skilled in writing clean code, optimizing performance, securing data, and delivering effective
+solutions that align with real business needs
 ---
+
+---
+
+## 💼 Experience
+
+### **Full Stack .NET Developer**  
+**ITS Technologies** – On-site, Full-Time  
+📍 *Port Said, Egypt* | 🗓️ *Present*
+
+- Built APIs for mobile integration and managed logistics/tracking platforms.  
+- **Technical Support Website:** Developed a support system to log technical issues and enable real-time chat for ITS Technologies.  
+- **Integra System:** Created a container transport management system for shipment tracking and automated report generation.
+---
+
 
 ## 📂 Projects
 
@@ -56,25 +71,86 @@ Skilled at turning complex requirements into maintainable solutions, focusing on
 ---
 
 ## 🛠️ Skills
+## 🔧 Technical Skills
 
+### 🖥️ Backend Development
+- ASP.NET Core  
+- ASP.NET Core MVC  
+- ASP.NET Web API  
+- RESTful API Design  
 
-- **Programming Languages:** C#, JavaScript, SQL, C, C++, PHP
-- **Frontend Technologies:** HTML, CSS, Bootstrap, jQuery
-- **Backend Technologies:** ASP.NET Core, ASP.NET Core MVC, ASP.NET Web API, LINQ, EF Core
-- **Databases:** MS SQL Server, My SQL
-- **Development Tools:** Visual Studio, VS Code
-- **Others:** Unit Testing (xUnit), .NET CLI, Git, OOP, Design Principles, SOLID, Design Patterns, Algorithms, 
-Data Structures, Clean Architecture, Repository Pattern
+### 💻 Programming Languages
+- C#  
+- SQL  
+
+### 🗃️ Data Access
+- Entity Framework Core  
+- LINQ  
+- ADO.NET  
+- Dapper  
+
+### 🧩 Databases
+- MS SQL Server  
+- MySQL  
+
+### 🎨 Frontend & Integration
+- HTML  
+- CSS  
+- Bootstrap  
+- jQuery  
+
+### 🛠️ Development Tools
+- Visual Studio  
+- VS Code  
+- Git & GitHub  
+- .NET CLI  
+- Postman  
+- Azure  
+
+### ✅ Testing
+- Unit Testing (xUnit)  
+- Integration Testing  
+
+### 🧱 Architecture & Best Practices
+- Object-Oriented Programming (OOP)  
+- SOLID Principles  
+- Design Patterns  
+- Clean Architecture  
+- Repository Pattern  
+- Dependency Injection  
+
+### ➕ Additional Skills
+- Authentication & Authorization (Identity, JWT)  
+- Caching  
+- Background Jobs (Hangfire)  
+- Logging (Serilog)  
+- Automated Email Notifications (MailKit)  
+- Performance Optimization  
+
+---
+
+## 🤝 Soft Skills
+- Problem Solving  
+- Teamwork  
+- Communication  
+- Time Management  
+- Adaptability  
+
+---
+
+## 🌍 Languages
+- Arabic: Native  
+- English: Good  
 
 ---
 
 ## 🎓 Education
 
- Bachelor's Degree                                                                                                     2021 – 2025 | Port Said, Egypt
- Information Technology and System
+### **Bachelor's Degree in Information Technology and Systems**  
+📍 *Port Said, Egypt* | 🗓️ *2021 – 2025*  
 
-**Graduation Project:** Raknah, a smart parking system integrated with hardware that helps users find, 
-book, and access parking spots easily while managing reservations and user accounts.
+- Graduated with a *Very Good* overall grade.  
+- **Graduation Project – Raknah:** A smart parking system integrated with hardware to help users find, book, and access parking spots easily, while managing reservations and user accounts.
 
 ---
 
