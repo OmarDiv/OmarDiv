@@ -70,6 +70,16 @@ solutions that align with real business needs
 
 ---
 
+## 🎓 Education
+
+### **Bachelor's Degree in Information Technology and Systems**  
+📍 *Port Said, Egypt* | 🗓️ *2021 – 2025*  
+
+- Graduated with a *Very Good* overall grade.  
+- **Graduation Project – Raknah:** A smart parking system integrated with hardware to help users find, book, and access parking spots easily, while managing reservations and user accounts.
+
+---
+
 ## 🛠️ Skills
 ## 🔧 Technical Skills
 
@@ -141,16 +151,6 @@ solutions that align with real business needs
 ## 🌍 Languages
 - Arabic: Native  
 - English: Good  
-
----
-
-## 🎓 Education
-
-### **Bachelor's Degree in Information Technology and Systems**  
-📍 *Port Said, Egypt* | 🗓️ *2021 – 2025*  
-
-- Graduated with a *Very Good* overall grade.  
-- **Graduation Project – Raknah:** A smart parking system integrated with hardware to help users find, book, and access parking spots easily, while managing reservations and user accounts.
 
 ---
 
