@@ -13,72 +13,89 @@
 </head>
 <body>
   <!-- Hero Section -->
-  <section class="hero bg-dark text-white text-center py-5">
-    <div class="container">
-      <img src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif" alt="Developer Animation" class="mb-3 rounded-circle" width="150">
-      <h1 class="display-4 fw-bold">Omar Mohamed Omar</h1>
-      <p class="lead">.NET Developer</p>
-      <div class="mb-3">
-        <a href="mailto:omaar88mohamed@gmail.com" class="text-white mx-2"><i class="fas fa-envelope"></i></a>
-        <a href="https://linkedin.com/in/omar-mohamed-713b53265" class="text-white mx-2"><i class="fab fa-linkedin"></i></a>
-        <a href="https://wa.me/01013762770" class="text-white mx-2"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://facebook.com/xban.ger.98" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+  <section class="hero bg-gradient text-white text-center py-5 position-relative">
+    <div class="overlay"></div>
+    <div class="container position-relative z-2">
+      <div class="profile-card mx-auto mb-4 p-4 rounded shadow-lg bg-white bg-opacity-10">
+        <img src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif" alt="Developer Animation" class="mb-3 rounded-circle border border-4 border-primary" width="140">
+        <h1 class="display-4 fw-bold animate-fade-in">Omar Mohamed Omar</h1>
+        <p class="lead animate-slide-up">.NET Developer</p>
+        <div class="mb-3 animate-fade-in">
+          <a href="mailto:omaar88mohamed@gmail.com" class="text-white mx-2 fs-4"><i class="fas fa-envelope"></i></a>
+          <a href="https://linkedin.com/in/omar-mohamed-713b53265" class="text-white mx-2 fs-4"><i class="fab fa-linkedin"></i></a>
+          <a href="https://wa.me/01013762770" class="text-white mx-2 fs-4"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://facebook.com/xban.ger.98" class="text-white mx-2 fs-4"><i class="fab fa-facebook"></i></a>
+        </div>
+        <a href="https://drive.google.com/file/d/1YjDJA3m-sr-3k2EIvOdeIiQ2qgMpNgJl/view" class="btn btn-primary animate-slide-up" target="_blank"><i class="fas fa-file-pdf"></i> View CV</a>
       </div>
-      <a href="https://drive.google.com/file/d/1YjDJA3m-sr-3k2EIvOdeIiQ2qgMpNgJl/view" class="btn btn-outline-light" target="_blank"><i class="fas fa-file-pdf"></i> View CV</a>
     </div>
+    <div class="scroll-down"><i class="fas fa-chevron-down"></i></div>
   </section>
 
   <!-- About Section -->
-  <section class="about py-5">
+  <section class="about py-5 bg-white animate-fade-in" id="about">
     <div class="container">
-      <h2 class="mb-4"><i class="fas fa-user"></i> About Me</h2>
-      <p>Backend developer with 1+ year of experience in building scalable and maintainable web applications across different domains. Skilled in writing clean code, optimizing performance, securing data, and delivering effective solutions that align with real business needs.</p>
+      <h2 class="mb-4 text-primary"><i class="fas fa-user"></i> About Me</h2>
+      <p class="fs-5">Backend developer with 1+ year of experience in building scalable and maintainable web applications across different domains. Skilled in writing clean code, optimizing performance, securing data, and delivering effective solutions that align with real business needs.</p>
     </div>
   </section>
 
   <!-- Skills Section -->
-  <section class="skills bg-light py-5">
+  <section class="skills bg-light py-5 animate-fade-in" id="skills">
     <div class="container">
-      <h2 class="mb-4"><i class="fas fa-cogs"></i> Skills</h2>
-      <div class="row">
+      <h2 class="mb-4 text-success"><i class="fas fa-cogs"></i> Skills</h2>
+      <div class="row g-4">
         <div class="col-md-6">
           <h5>Technical Skills</h5>
-          <ul>
-            <li><b>Backend:</b> ASP.NET Core, ASP.NET Core MVC, ASP.NET Web API, RESTful API Design</li>
-            <li><b>Languages:</b> C#, SQL</li>
-            <li><b>Data Access:</b> Entity Framework Core, LINQ, ADO.NET, Dapper</li>
-            <li><b>Databases:</b> MS SQL Server, MySQL</li>
-            <li><b>Frontend & Integration:</b> HTML, CSS, Bootstrap, jQuery</li>
-            <li><b>Tools:</b> Visual Studio, VS Code, Git, GitHub, .NET CLI, Postman, Azure</li>
-            <li><b>Testing:</b> Unit Testing (xUnit), Integration Testing</li>
-            <li><b>Architecture:</b> OOP, SOLID, Design Patterns, Clean Architecture, Repository Pattern, Dependency Injection</li>
-            <li><b>Other:</b> Authentication & Authorization (Identity, JWT), Caching, Hangfire, Serilog, MailKit, Performance Optimization</li>
-          </ul>
+          <div class="d-flex flex-wrap gap-2 mb-3">
+            <span class="badge bg-primary">ASP.NET Core</span>
+            <span class="badge bg-secondary">MVC</span>
+            <span class="badge bg-info text-dark">Web API</span>
+            <span class="badge bg-success">C#</span>
+            <span class="badge bg-warning text-dark">SQL</span>
+            <span class="badge bg-danger">Entity Framework</span>
+            <span class="badge bg-dark">LINQ</span>
+            <span class="badge bg-primary">Dapper</span>
+            <span class="badge bg-secondary">MS SQL Server</span>
+            <span class="badge bg-info text-dark">MySQL</span>
+            <span class="badge bg-success">HTML</span>
+            <span class="badge bg-warning text-dark">CSS</span>
+            <span class="badge bg-danger">Bootstrap</span>
+            <span class="badge bg-dark">jQuery</span>
+          </div>
+          <div class="mb-3">
+            <label>Backend Development</label>
+            <div class="progress mb-2"><div class="progress-bar bg-primary" style="width: 95%">95%</div></div>
+            <label>Database & Data Access</label>
+            <div class="progress mb-2"><div class="progress-bar bg-success" style="width: 90%">90%</div></div>
+            <label>Frontend & Integration</label>
+            <div class="progress mb-2"><div class="progress-bar bg-info text-dark" style="width: 80%">80%</div></div>
+            <label>Testing & Tools</label>
+            <div class="progress mb-2"><div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div></div>
+          </div>
         </div>
         <div class="col-md-6">
           <h5>Soft Skills</h5>
-          <ul>
-            <li>Problem Solving</li>
-            <li>Teamwork</li>
-            <li>Communication</li>
-            <li>Time Management</li>
-            <li>Adaptability</li>
+          <ul class="list-group list-group-flush mb-3">
+            <li class="list-group-item">Problem Solving</li>
+            <li class="list-group-item">Teamwork</li>
+            <li class="list-group-item">Communication</li>
+            <li class="list-group-item">Time Management</li>
+            <li class="list-group-item">Adaptability</li>
           </ul>
-          <h5 class="mt-4">Languages</h5>
-          <ul>
-            <li>Arabic (Native)</li>
-            <li>English (Good)</li>
-          </ul>
+          <h5>Languages</h5>
+          <span class="badge bg-success">Arabic (Native)</span>
+          <span class="badge bg-primary">English (Good)</span>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Certificates Section -->
-  <section class="certificates py-5">
+  <section class="certificates py-5 bg-gradient animate-fade-in" id="certificates">
     <div class="container">
-      <h2 class="mb-4"><i class="fas fa-certificate"></i> Certificates</h2>
-      <ul>
+      <h2 class="mb-4 text-warning"><i class="fas fa-certificate"></i> Certificates</h2>
+      <ul class="fs-5">
         <li><b>ITI Summer Training 2023</b> - Web Development using Asp .NET Core
           <ul>
             <li>SQL Server</li>
@@ -92,59 +109,91 @@
   </section>
 
   <!-- Experience Section -->
-  <section class="experience bg-light py-5">
+  <section class="experience bg-white py-5 animate-fade-in" id="experience">
     <div class="container">
-      <h2 class="mb-4"><i class="fas fa-briefcase"></i> Work Experience</h2>
-      <div>
-        <h5>Full Stack .NET Developer <span class="text-muted">@ ITS Technologies</span></h5>
-        <p class="mb-1"><i class="fas fa-map-marker-alt"></i> Port Said, Egypt | <i class="fas fa-calendar-alt"></i> Present</p>
-        <ul>
-          <li>Built APIs for mobile integration and managed logistics/tracking platforms.</li>
-          <li>Developed a technical support website for ITS Technologies to solve problems and enable real-time chat.</li>
-          <li>Developed a container transport management system for tracking shipments and generating reports.</li>
-        </ul>
+      <h2 class="mb-4 text-danger"><i class="fas fa-briefcase"></i> Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon bg-primary"><i class="fas fa-building"></i></div>
+          <div class="timeline-content">
+            <h5>Full Stack .NET Developer <span class="text-muted">@ ITS Technologies</span></h5>
+            <p class="mb-1"><i class="fas fa-map-marker-alt"></i> Port Said, Egypt | <i class="fas fa-calendar-alt"></i> Present</p>
+            <ul>
+              <li>Built APIs for mobile integration and managed logistics/tracking platforms.</li>
+              <li>Developed a technical support website for ITS Technologies to solve problems and enable real-time chat.</li>
+              <li>Developed a container transport management system for tracking shipments and generating reports.</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Projects Section -->
-  <section class="projects py-5">
+  <section class="projects py-5 bg-light animate-fade-in" id="projects">
     <div class="container">
-      <h2 class="mb-4"><i class="fas fa-project-diagram"></i> Projects</h2>
+      <h2 class="mb-4 text-info"><i class="fas fa-project-diagram"></i> Projects</h2>
       <div class="row g-4">
         <div class="col-md-6">
-          <div class="card h-100">
+          <div class="card h-100 shadow project-card">
             <div class="card-body">
-              <h5 class="card-title">FoodFlow</h5>
+              <div class="d-flex align-items-center mb-2"><i class="fas fa-utensils fa-2x text-primary me-2"></i><h5 class="card-title mb-0">FoodFlow</h5></div>
               <p class="card-text">Backend system for food delivery and restaurant management with secure RESTful APIs, authentication, and automated documentation. Optimized data access, caching, and background jobs.</p>
-              <p><b>Tech:</b> ASP.NET Core, Web API, EF Core, SQL Server, LINQ, Identity, JWT, Repository Pattern, Hangfire, Serilog, Swagger, HealthChecks</p>
+              <div class="d-flex flex-wrap gap-1">
+                <span class="badge bg-primary">ASP.NET Core</span>
+                <span class="badge bg-success">Web API</span>
+                <span class="badge bg-warning text-dark">EF Core</span>
+                <span class="badge bg-info text-dark">SQL Server</span>
+                <span class="badge bg-secondary">JWT</span>
+                <span class="badge bg-dark">Hangfire</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card h-100">
+          <div class="card h-100 shadow project-card">
             <div class="card-body">
-              <h5 class="card-title">Raknah (Smart Parking System)</h5>
+              <div class="d-flex align-items-center mb-2"><i class="fas fa-parking fa-2x text-success me-2"></i><h5 class="card-title mb-0">Raknah (Smart Parking System)</h5></div>
               <p class="card-text">Smart parking system with real-time reservations, hardware integration, and automated notifications. Secure authentication and seamless user experience.</p>
-              <p><b>Tech:</b> ASP.NET Core, EF Core, SQL Server, LINQ, Identity, JWT, Hangfire, Mapster, MailKit, FluentValidation, HealthChecks, Hybrid Caching</p>
+              <div class="d-flex flex-wrap gap-1">
+                <span class="badge bg-primary">ASP.NET Core</span>
+                <span class="badge bg-success">EF Core</span>
+                <span class="badge bg-info text-dark">SQL Server</span>
+                <span class="badge bg-secondary">JWT</span>
+                <span class="badge bg-dark">Hangfire</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card h-100">
+          <div class="card h-100 shadow project-card">
             <div class="card-body">
-              <h5 class="card-title">Survey Basket</h5>
+              <div class="d-flex align-items-center mb-2"><i class="fas fa-poll fa-2x text-warning me-2"></i><h5 class="card-title mb-0">Survey Basket</h5></div>
               <p class="card-text">Survey platform for creating and analyzing surveys with automated notifications, role-based authentication, and performance optimization.</p>
-              <p><b>Tech:</b> ASP.NET Core, Web API, EF Core, SQL Server, LINQ, Identity, JWT, Hangfire, Serilog, MailKit, FluentValidation, Mapster</p>
+              <div class="d-flex flex-wrap gap-1">
+                <span class="badge bg-primary">ASP.NET Core</span>
+                <span class="badge bg-success">Web API</span>
+                <span class="badge bg-warning text-dark">EF Core</span>
+                <span class="badge bg-info text-dark">SQL Server</span>
+                <span class="badge bg-secondary">JWT</span>
+                <span class="badge bg-dark">Hangfire</span>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card h-100">
+          <div class="card h-100 shadow project-card">
             <div class="card-body">
-              <h5 class="card-title">Bookify (Library Management System)</h5>
+              <div class="d-flex align-items-center mb-2"><i class="fas fa-book fa-2x text-danger me-2"></i><h5 class="card-title mb-0">Bookify (Library Management System)</h5></div>
               <p class="card-text">Digital library management system with secure authentication, localization, reporting, and automated notifications for rental expiration.</p>
-              <p><b>Tech:</b> ASP.NET Core, MVC, EF Core, SQL Server, LINQ, Identity, JWT, Hangfire, AutoMapper, Serilog, Cloudinary, ClosedXML, Bootstrap, jQuery</p>
+              <div class="d-flex flex-wrap gap-1">
+                <span class="badge bg-primary">ASP.NET Core</span>
+                <span class="badge bg-success">MVC</span>
+                <span class="badge bg-warning text-dark">EF Core</span>
+                <span class="badge bg-info text-dark">SQL Server</span>
+                <span class="badge bg-secondary">JWT</span>
+                <span class="badge bg-dark">Hangfire</span>
+              </div>
             </div>
           </div>
         </div>
@@ -153,9 +202,9 @@
   </section>
 
   <!-- Education Section -->
-  <section class="education bg-light py-5">
+  <section class="education bg-white py-5 animate-fade-in" id="education">
     <div class="container">
-      <h2 class="mb-4"><i class="fas fa-graduation-cap"></i> Education</h2>
+      <h2 class="mb-4 text-primary"><i class="fas fa-graduation-cap"></i> Education</h2>
       <div>
         <h5>Bachelor's Degree in Information Technology and Systems</h5>
         <p class="mb-1"><i class="fas fa-map-marker-alt"></i> Port Said, Egypt | <i class="fas fa-calendar-alt"></i> 2021 – 2025</p>
@@ -168,10 +217,10 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="contact py-5">
+  <section class="contact py-5 bg-gradient animate-fade-in" id="contact">
     <div class="container">
-      <h2 class="mb-4"><i class="fas fa-paper-plane"></i> Contact</h2>
-      <form action="mailto:omaar88mohamed@gmail.com" method="post" enctype="text/plain">
+      <h2 class="mb-4 text-success"><i class="fas fa-paper-plane"></i> Contact</h2>
+      <form action="mailto:omaar88mohamed@gmail.com" method="post" enctype="text/plain" class="contact-form p-4 rounded shadow-lg bg-white bg-opacity-75">
         <div class="row g-3">
           <div class="col-md-6">
             <input type="text" class="form-control" name="name" placeholder="Your Name" required>
@@ -184,18 +233,40 @@
           <textarea class="form-control" name="message" rows="4" placeholder="Your Message" required></textarea>
         </div>
         <div class="mt-3 text-end">
-          <button type="submit" class="btn btn-primary">Send Message</button>
+          <button type="submit" class="btn btn-success">Send Message</button>
         </div>
       </form>
     </div>
   </section>
 
-  <footer class="bg-dark text-white text-center py-3 mt-4">
+  <footer class="bg-dark text-white text-center py-3 mt-4 animate-fade-in">
     <div class="container">
       <small>&copy; 2024 Omar Mohamed Omar. All rights reserved.</small>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Smooth scroll for nav links (if you add a navbar)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    // Fade-in animation on scroll
+    const faders = document.querySelectorAll('.animate-fade-in');
+    const appearOptions = { threshold: 0.1 };
+    const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('fade-in-visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+    faders.forEach(fader => { appearOnScroll.observe(fader); });
+  </script>
 </body>
 </html>
