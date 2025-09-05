@@ -18,9 +18,8 @@ solutions that align with real business needs
 ## 💼 Experience
 
 ### **Full Stack .NET Developer**  
-**ITS Technologies** – On-site, Full-Time  
-📍 *Port Said, Egypt* | 🗓️ *Present*
-
+**ITS Technologies**  – On-site, Full-Time
+      Sep 2024 – Sep 2025 | Port Said, Egypt
 - Built APIs for mobile integration and managed logistics/tracking platforms.  
 - **Technical Support Website:** Developed a support system to log technical issues and enable real-time chat for ITS Technologies.  
 - **Integra System:** Created a container transport management system for shipment tracking and automated report generation.
