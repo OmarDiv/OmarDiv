@@ -21,7 +21,7 @@
   <a href="mailto:omaar88mohamed@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://drive.google.com/file/d/1CpHmH83cuY-Zow_RBnJSUy9KgxPukTVu/view?usp=drive_link">
+  <a href="https://flowcv.com/resume/n1comunpab">
     <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" alt="Resume"/>
   </a>
 </p>
@@ -297,7 +297,7 @@ I'm always open to discussing new projects, creative ideas, or opportunities to 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OmarDiv)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://omardiv.github.io/portfolio)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omaar88mohamed@gmail.com)
-[![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1CpHmH83cuY-Zow_RBnJSUy9KgxPukTVu/view?usp=drive_link)
+[![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://flowcv.com/resume/n1comunpab)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/01013762770)
 
 ### ⭐ Star my repositories if you find them useful!
