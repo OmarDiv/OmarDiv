@@ -36,7 +36,7 @@
 
 .NET Backend Developer with **+1 year of experience** building scalable and maintainable web applications. Skilled in writing clean code, optimizing performance, securing data, and delivering effective solutions that align with real business needs.
 
-Passionate about **Clean Architecture**, **RESTful API design**, and implementing best practices with hands-on experience in **Docker** and **CI/CD pipelines**.
+Passionate about **Clean Architecture**, **RESTful API design**, and implementing best practices with Basic Knowldge/Impelemation in **Docker** and **CI/CD pipelines**.
 
 ---
 
