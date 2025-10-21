@@ -6,7 +6,7 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="500">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=2%2B+Year+of+Backend+Development;ASP.NET+Core+Specialist;Clean+Architecture+Enthusiast;Building+Scalable+APIs)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=1%2B+Year+of+Backend+Development;ASP.NET+Core+Specialist;Clean+Architecture+Enthusiast;Building+Scalable+APIs)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://linkedin.com/in/omar-mohamed-713b53265">
@@ -34,7 +34,7 @@
 
 ---
 
-.NET Backend Developer with **+2 year of experience** building scalable and maintainable web applications. Skilled in writing clean code, optimizing performance, securing data, and delivering effective solutions that align with real business needs.
+.NET Backend Developer with **+1 year of experience** building scalable and maintainable web applications. Skilled in writing clean code, optimizing performance, securing data, and delivering effective solutions that align with real business needs.
 
 Passionate about **Clean Architecture**, **RESTful API design**, and implementing best practices with Basic Knowledge/Implementation in **Docker** and **CI/CD pipelines**.
 
