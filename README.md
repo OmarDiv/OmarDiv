@@ -43,8 +43,8 @@ Passionate about **Clean Architecture**, **RESTful API design**, and implementin
 ## Work Experience
 
 ### Full Stack .NET Developer
-**ITS Technologies** | Full-Time, Remote
-Sep 2024 – Present | Port Said, Egypt
+**ITS Technologies** | Full-Time, OnSite
+Sep 2024 – October 2024 | Port Said, Egypt
 
 - Developed scalable web applications and RESTful APIs using ASP.NET Core and .NET Core MVC
 - Built Technical Support Website with real-time chat functionality for logging and resolving technical issues
