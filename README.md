@@ -7,7 +7,7 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="500">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=1%2B+Year+of+Backend+Development;ASP.NET+Core+Specialist;Clean+Architecture+Enthusiast;Building+Scalable+APIs)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=2+Years+of+Backend+Development;ASP.NET+Core+Specialist;Clean+Architecture+Enthusiast;Building+Scalable+APIs)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://linkedin.com/in/omar-mohamed-713b53265">
@@ -37,32 +37,42 @@
 
 ## 🚀 About Me
 
-.NET Backend Developer with **+1 year of hands-on experience** building scalable and maintainable web applications. Passionate about **Clean Architecture**, **RESTful API design**, and implementing best practices that deliver real business value.
+.NET Backend Developer with **2 years of hands-on experience** building scalable and maintainable web applications. Passionate about **Clean Architecture**, **RESTful API design**, and implementing best practices that deliver real business value.
 
-Specialized in crafting production-ready systems with focus on **performance optimization**, **security**, and **code quality**. Recently worked on diverse projects spanning healthcare, food delivery, IoT, surveys, and digital libraries.
+Specialized in crafting production-ready systems with focus on **performance optimization**, **security**, and **code quality**. Currently developing enterprise applications for UAE government projects while building diverse personal projects spanning healthcare, food delivery, IoT, surveys, and digital libraries.
 
 ---
 
 ## 💼 Work Experience
 
-### .NET Developer
+### Full Stack .NET Developer
 
-**ITS Technologies** | Full-Time, Remote  
+**Smart Vision** | Full-Time, On-Site  
+📅 Oct 2025 – Present | 📍 Cairo, Egypt
+
+- **Developing end-to-end ASP.NET Core MVC applications** for UAE government projects including Fougera Club (Al Fujairah Sports Club) and Al Metsaweq (Secret Shopper Platform)
+- **Handling full system implementation** from UI customization and enhancements (HTML, CSS, Bootstrap) to business logic, RESTful APIs, and ongoing production maintenance
+- **Delivering enterprise-grade solutions** for government clients with focus on reliability, security, and user experience
+- **Managing production deployments** and providing continuous support for live applications
+
+### Full Stack .NET Developer
+
+**ITS Technologies** | Full-Time, On-Site  
 📅 Sep 2024 – Oct 2025 | 📍 Port Said, Egypt
 
-- **Architected scalable RESTful APIs** using ASP.NET Core and Web API following SOLID principles and industry best practices
-- **Built real-time technical support portal** with integrated chat functionality, achieving 40% improvement in customer satisfaction
-- **Designed mobile-ready APIs** enabling iOS and Android app integration, expanding user reach significantly
-- **Developed container transport management system** with real-time tracking, reducing operational costs by 25%
-- **Implemented responsive and accessible UIs** using HTML5, CSS3, and Bootstrap, ensuring WCAG 2.1 compliance
-- **Optimized database queries** using LINQ and Entity Framework Core, improving API performance by 35%
+- **Developed scalable web applications and RESTful APIs** using ASP.NET Core and .NET Core MVC, implementing responsive UIs with HTML5, CSS3, and Bootstrap to enhance user experience
+- **Built technical support website and mobile integration APIs** - Created comprehensive backend APIs enabling seamless iOS and Android app connectivity, improving customer support accessibility
+- **Implemented secure authentication and authorization** using ASP.NET Identity and JWT tokens with role-based access control
+- **Optimized database operations** using Entity Framework Core and LINQ, improving query performance and data access efficiency
+- **Integrated background job processing** using Hangfire for automated notifications, scheduled tasks, and asynchronous operations
+- **Applied Clean Architecture principles** with Repository Pattern, Dependency Injection, and SOLID principles for maintainable code
 
 ---
 
 ## 🎯 Featured Projects
 
 <details open>
-<summary><b>🏥 Hospital Management System</b> <code>In Development</code></summary>
+<summary><b>🏥 Hospital Management System (Sehaty-Plus)</b> <code>In Development</code></summary>
 <br>
 
 > Advanced healthcare platform for comprehensive patient and doctor management with appointment scheduling and consultations
@@ -76,13 +86,14 @@ Specialized in crafting production-ready systems with focus on **performance opt
 - JWT authentication with secure refresh token mechanism
 - Real-time appointment booking system (in progress)
 - Rate limiting and CORS protection for API security
+- Distributed caching with Redis for high performance
+- Containerized deployment with Docker Compose
 
 **🛠️ Tech Stack:**
-
 ```
-ASP.NET Core • Clean Architecture • CQRS • Web API • Entity Framework Core • SQL Server
-JWT • Identity Framework • FluentValidation • Mapster • MailKit • Hangfire
-Dapper • Serilog • CORS • Rate Limiting • Audit Logging
+ASP.NET Core 9.0 • Clean Architecture • CQRS • Web API • Entity Framework Core • SQL Server
+JWT • Identity Framework • FluentValidation • Mapster • MailKit • Twilio SMS • Hangfire
+Dapper • Serilog • CORS • Rate Limiting • Audit Logging • Redis • Docker • Docker Compose
 ```
 
 📂 [View Repository →](https://github.com/OmarDiv/Sehaty-Plus-CleanArchitecture)
@@ -105,7 +116,6 @@ Dapper • Serilog • CORS • Rate Limiting • Audit Logging
 - Background jobs for order notifications via Hangfire
 
 **🛠️ Tech Stack:**
-
 ```
 ASP.NET Core • Web API • Entity Framework Core • SQL Server • Identity
 JWT • Repository Pattern • FluentValidation • AutoMapper • Hangfire
@@ -120,23 +130,24 @@ Swagger • Serilog • CORS • HealthChecks
 <summary><b>🅿️ Raknah - Smart Parking System</b> <code>Graduation Project</code></summary>
 <br>
 
-> IoT-integrated intelligent parking solution with hardware integration — **Graduated with Distinction** 🎓
+> IoT-integrated intelligent parking solution with hardware integration — **Graduated with Very Good** 🎓
 
 **✨ Key Features:**
 
 - Real-time parking spot reservation and availability management
 - ESP32 hardware integration for automated gate control
+- MQTT protocol for live IoT communication
 - Automated SMTP email notification system
 - Secure user authentication and account management
 - Hybrid caching strategy for optimal performance
+- Robust concurrency handling to prevent double-booking
 - Comprehensive audit logging for compliance
 
 **🛠️ Tech Stack:**
-
 ```
 ASP.NET Core • Web API • EF Core • SQL Server • Identity • JWT
 Result Pattern • Hangfire • Mapster • MailKit • FluentValidation
-Rate Limiting • Hybrid Caching • ESP32 • SMTP • MQTT
+Rate Limiting • Hybrid Caching • ESP32 • SMTP • MQTT • HttpClient
 ```
 
 📂 [View Repository →](https://github.com/OmarDiv/Raknah)
@@ -158,7 +169,6 @@ Rate Limiting • Hybrid Caching • ESP32 • SMTP • MQTT
 - API versioning for backward compatibility
 
 **🛠️ Tech Stack:**
-
 ```
 ASP.NET Core • Web API • EF Core • SQL Server • Identity • JWT
 Result Pattern • Repository Pattern • Hangfire • Mapster • Serilog
@@ -185,7 +195,6 @@ MailKit • FluentValidation • API Versioning • Hybrid Caching
 - Cloud-based file storage with Cloudinary integration
 
 **🛠️ Tech Stack:**
-
 ```
 ASP.NET Core MVC • EF Core • SQL Server • Identity • JWT • Hangfire
 AutoMapper • Serilog • Cloudinary • ClosedXML • Repository Pattern
@@ -219,6 +228,7 @@ Clean Architecture • FluentValidation • Bootstrap • jQuery
 ![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![LINQ](https://img.shields.io/badge/LINQ-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Dapper](https://img.shields.io/badge/Dapper-512BD4?style=flat&logo=dotnet&logoColor=white)
+![ADO.NET](https://img.shields.io/badge/ADO.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
 
 ### 🎨 Frontend Technologies
 
@@ -253,7 +263,6 @@ Clean Architecture • FluentValidation • Bootstrap • jQuery
 </table>
 
 ### 🏗️ Architecture & Design Patterns
-
 ```
 ✓ Clean Architecture    ✓ SOLID Principles    ✓ Design Patterns    ✓ Repository Pattern
 ✓ Unit of Work         ✓ Dependency Injection  ✓ RESTful API Design  ✓ Result Pattern
@@ -261,37 +270,33 @@ Clean Architecture • FluentValidation • Bootstrap • jQuery
 ```
 
 ### 🔒 Security & Authentication
-
 ```
 ✓ ASP.NET Identity      ✓ JWT Authentication   ✓ Refresh Tokens    ✓ OAuth
 ✓ Authorization        ✓ Role-Based Access Control  ✓ Data Protection
 ```
 
 ### ⚡ Performance & Monitoring
-
 ```
-✓ Hybrid Caching           ✓ Distributed Caching    ✓ Pagination
+✓ Hybrid Caching           ✓ Distributed Caching (Redis)    ✓ Pagination
 ✓ Background Jobs (Hangfire)  ✓ Logging (Serilog)   ✓ Health Checks
 ✓ Rate Limiting            ✓ Query Optimization
 ```
 
 ### 🧪 Testing & Quality
-
 ```
 ✓ Unit Testing (xUnit)     ✓ Integration Testing   ✓ FluentValidation
 ```
 
-### 📦 Additional Technologies
-
+### 📦 Additional Technologies & Integrations
 ```
 MailKit/MimeKit  •  Swagger/OpenAPI  •  API Versioning  •  CORS
 Cloudinary  •  ClosedXML  •  AutoMapper  •  Mapster  •  OneOf
+Twilio SMS  •  MQTT  •  Redis  •  ADO.NET  •  HttpClient  •  Docker Compose
 ```
 
 ---
 
 ## 💡 Core Competencies
-
 ```yaml
 🎯 Problem Solving: Analytical thinking and debugging complex issues
 📝 Clean Code: Writing maintainable and scalable solutions
@@ -309,7 +314,7 @@ Cloudinary  •  ClosedXML  •  AutoMapper  •  Mapster  •  OneOf
 **Bachelor's Degree in Information Technology and Systems**  
 **Port Said University** | 2021 – 2025
 
-- Graduated with **Distinction** 🎖️
+- Graduated with **Very Good** grade 🎖️
 - **Graduation Project:** Raknah - Smart parking IoT system integrated with ESP32 hardware
 
 ---
