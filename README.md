@@ -55,6 +55,16 @@ Specialized in crafting production-ready systems with focus on **performance opt
 - **Delivering enterprise-grade solutions** for government clients with focus on reliability, security, and user experience
 - **Managing production deployments** and providing continuous support for live applications
 
+### .NET Developer
+
+**Codex Plans** | Part-Time, Remote  
+📅 Dec 2025 – Mar 2026
+
+- **Contributed to multiple enterprise systems** across different business domains — Hajj management, ERP, and clinic operations — built on Multi-Tenant architecture with Clean Architecture principles.
+- **Implemented per-page Role & Permission authorization,**  applied URL ID Hashing (Hashids) for API security, and built multiple independent modules ensuring clean separation of concerns.
+- **Worked with SignalR** for real-time live data updates, and expanded knowledge in IdentityServer and DB-per-Tenant multi-tenancy strategies.
+- **Expanded technical mindset** by working with new architectural patterns and enterprise-level design approaches beyond previous experience.
+
 ### Full Stack .NET Developer
 
 **ITS Technologies** | Full-Time, On-Site  
@@ -72,7 +82,7 @@ Specialized in crafting production-ready systems with focus on **performance opt
 ## 🎯 Featured Projects
 
 <details open>
-<summary><b>🏥 Hospital Management System (Sehaty-Plus)</b> <code>In Development</code></summary>
+<summary><b>🏥 Hospital Management System (Sehaty-Plus)</b></summary>
 <br>
 
 > Advanced healthcare platform for comprehensive patient and doctor management with appointment scheduling and consultations
@@ -127,7 +137,7 @@ Swagger • Serilog • CORS • HealthChecks
 </details>
 
 <details>
-<summary><b>🅿️ Raknah - Smart Parking System</b> <code>Graduation Project</code></summary>
+<summary><b>🅿️ Raknah - Smart Parking System</b> <code>Graduation Project || IOT</code></summary>
 <br>
 
 > IoT-integrated intelligent parking solution with hardware integration — **Graduated with Very Good** 🎓
