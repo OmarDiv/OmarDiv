@@ -2,6 +2,8 @@
 
 # Hi, I'm Omar Mohamed 👋
 
+<img src="https://raw.githubusercontent.com/OmarDiv/portfolio/main/signature.svg" width="72" alt="Omar Mohamed monogram signature" />
+
 ### .NET Backend Developer | Building Scalable Solutions
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
@@ -60,7 +62,7 @@ Specialized in crafting production-ready systems with focus on **performance opt
 **Codex Plans** | Full-Time, Remote
 📅 Jul 2025 – Jan 2026
 
-- **Contributed to multiple enterprise systems** across different business domains — ERP, Legal Case Management, Real Estate, Hajj management, and clinic operations — built on Multi-Tenant architecture with Clean Architecture principles
+- **Contributed to multiple enterprise systems** across different business domains — ERP, Legal Case Management, and Real Estate — built on Multi-Tenant architecture with Clean Architecture principles
 - **Implemented per-page Role & Permission authorization**, applied URL ID Hashing (Hashids) for API security, and built multiple independent modules ensuring clean separation of concerns
 - **Worked with SignalR** for real-time live data updates, and expanded knowledge in IdentityServer and DB-per-Tenant multi-tenancy strategies
 - **Expanded technical mindset** by working with new architectural patterns and enterprise-level design approaches beyond previous experience
@@ -409,6 +411,12 @@ Twilio SMS  •  MQTT  •  Redis  •  ADO.NET  •  HttpClient  •  Docker Co
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omaar88mohamed@gmail.com)
 [![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://flowcv.com/resume/n1comunpab)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201041204519)
+
+<br>
+
+<img src="./assets/signature.svg" width="44" alt="OM monogram" />
+<br>
+<sub><i>Designed, coded &amp; signed — Omar Mohamed</i></sub>
 
 ---
 
