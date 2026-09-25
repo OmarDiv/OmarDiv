@@ -7,10 +7,10 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="500">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=2+Years+of+Backend+Development;ASP.NET+Core+Specialist;Clean+Architecture+Enthusiast;Building+Scalable+APIs)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=2+Years+of+Backend+Development;ASP.NET+Core+Specialist;Modular+Monolith+%26+Clean+Architecture;Building+Scalable+APIs)](https://git.io/typing-svg)
 
 <p align="center">
-  <a href="https://linkedin.com/in/omar-mohamed-713b53265">
+  <a href="https://linkedin.com/in/omar-mohamed-mamon">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/OmarDiv">
@@ -37,38 +37,38 @@
 
 ## 🚀 About Me
 
-.NET Backend Developer with **2 years of hands-on experience** building scalable and maintainable web applications. Passionate about **Clean Architecture**, **RESTful API design**, and implementing best practices that deliver real business value.
+.NET Backend Developer with **2 years of hands-on experience** building scalable and maintainable web applications. Passionate about **Clean Architecture, Modular Monolith Architecture, and CQRS**, and implementing best practices that deliver real business value.
 
-Specialized in crafting production-ready systems with focus on **performance optimization**, **security**, and **code quality**. Currently developing enterprise applications for UAE government projects while building diverse personal projects spanning healthcare, food delivery, IoT, surveys, and digital libraries.
+Specialized in crafting production-ready systems with focus on **performance optimization**, **security**, and **code quality**. Currently developing enterprise applications for UAE government projects while building diverse personal projects spanning e-commerce (Modular Monolith), healthcare, food delivery, IoT, surveys, and digital libraries.
 
 ---
 
 ## 💼 Work Experience
 
-### Full Stack .NET Developer
+### .NET Developer
 
-**Smart Vision** | Full-Time, On-Site  
-📅 Oct 2025 – Present | 📍 Cairo, Egypt
+**Smart Vision** | Full-Time, On-Site
+📅 Jan 2026 – Present | 📍 Cairo, Egypt
 
-- **Developing end-to-end ASP.NET Core MVC applications** for UAE government projects including Fougera Club (Al Fujairah Sports Club) and Al Metsaweq (Secret Shopper Platform)
-- **Handling full system implementation** from UI customization and enhancements (HTML, CSS, Bootstrap) to business logic, RESTful APIs, and ongoing production maintenance
-- **Delivering enterprise-grade solutions** for government clients with focus on reliability, security, and user experience
-- **Managing production deployments** and providing continuous support for live applications
+- **Resolved critical production security vulnerabilities**, including a refresh token reuse attack and a broken access control issue caused by a missing user ID in Redis cache keys, and added JWT blacklisting on logout
+- **Refactored a per-action audit logging system** applied across 9 controllers into a global, opt-out logging pipeline backed by a bilingual (AR/EN) operation-type lookup, and designed a localization architecture combining Redis-cached static messages with database-driven dynamic entity translations
+- **Built permission-based authorization** per endpoint and unified error handling across the Result-pattern and exception-based paths for consistent HTTP status codes
+- **Developing end-to-end ASP.NET Core MVC applications** for UAE government projects including Fougera Club (Al Fujairah Sports Club) and Al Metsaweq (Secret Shopper Platform), including authentication workflows (2FA) and dashboard/reporting features
 
 ### .NET Developer
 
-**Codex Plans** | Part-Time, Remote  
-📅 Dec 2025 – Mar 2026
+**Codex Plans** | Full-Time, Remote
+📅 Jul 2025 – Jan 2026
 
-- **Contributed to multiple enterprise systems** across different business domains — Hajj management, ERP, and clinic operations — built on Multi-Tenant architecture with Clean Architecture principles.
-- **Implemented per-page Role & Permission authorization,**  applied URL ID Hashing (Hashids) for API security, and built multiple independent modules ensuring clean separation of concerns.
-- **Worked with SignalR** for real-time live data updates, and expanded knowledge in IdentityServer and DB-per-Tenant multi-tenancy strategies.
-- **Expanded technical mindset** by working with new architectural patterns and enterprise-level design approaches beyond previous experience.
+- **Contributed to multiple enterprise systems** across different business domains — ERP, Legal Case Management, Real Estate, Hajj management, and clinic operations — built on Multi-Tenant architecture with Clean Architecture principles
+- **Implemented per-page Role & Permission authorization**, applied URL ID Hashing (Hashids) for API security, and built multiple independent modules ensuring clean separation of concerns
+- **Worked with SignalR** for real-time live data updates, and expanded knowledge in IdentityServer and DB-per-Tenant multi-tenancy strategies
+- **Expanded technical mindset** by working with new architectural patterns and enterprise-level design approaches beyond previous experience
 
-### Full Stack .NET Developer
+### .NET Developer
 
-**ITS Technologies** | Full-Time, On-Site  
-📅 Sep 2024 – Oct 2025 | 📍 Port Said, Egypt
+**ITS Technologies** | Full-Time, On-Site
+📅 Sep 2024 – Jul 2025 | 📍 Port Said, Egypt
 
 - **Developed scalable web applications and RESTful APIs** using ASP.NET Core and .NET Core MVC, implementing responsive UIs with HTML5, CSS3, and Bootstrap to enhance user experience
 - **Built technical support website and mobile integration APIs** - Created comprehensive backend APIs enabling seamless iOS and Android app connectivity, improving customer support accessibility
@@ -82,6 +82,33 @@ Specialized in crafting production-ready systems with focus on **performance opt
 ## 🎯 Featured Projects
 
 <details open>
+<summary><b>🛒 EShop - Modular Monolith E-Commerce Platform</b></summary>
+<br>
+
+> Modular monolith backend architected around independent, loosely-coupled business modules, built to explore large-scale system design patterns
+
+**✨ Key Features:**
+
+- Modular monolith backend with isolated Catalog, Basket, Identity, and Ordering modules, each with its own database schema
+- Vertical Slice Architecture and CQRS (MediatR) for clean, feature-focused request handling
+- Domain-Driven Design (DDD) tactical patterns for rich domain models
+- Outbox Pattern with RabbitMQ/MassTransit for reliable, eventually-consistent cross-module messaging
+- Eliminated dual-write inconsistency risk in the Basket Checkout flow
+- API security secured with Keycloak (OAuth2/OpenID Connect, JWT)
+- Structured logging with Serilog and Seq
+- Containerized deployment with Docker
+
+**🛠️ Tech Stack:**
+```
+ASP.NET Core • EF Core • CQRS (MediatR) • PostgreSQL • Redis
+RabbitMQ • MassTransit • Keycloak • Serilog • Seq • Docker
+```
+
+📂 [View Repository →](https://github.com/OmarDiv/Eshop)
+
+</details>
+
+<details>
 <summary><b>🏥 Hospital Management System (Sehaty-Plus)</b></summary>
 <br>
 
@@ -121,15 +148,15 @@ Dapper • Serilog • CORS • Rate Limiting • Audit Logging • Redis • Do
 - Restaurant browsing and menu management system
 - Complete order processing and real-time tracking pipeline
 - Secure JWT authentication with role-based authorization
-- Performance optimization with intelligent caching strategies
+- Performance optimization with intelligent caching strategies (HybridCache)
 - Automated API documentation with Swagger
 - Background jobs for order notifications via Hangfire
 
 **🛠️ Tech Stack:**
 ```
-ASP.NET Core • Web API • Entity Framework Core • SQL Server • Identity
-JWT • Repository Pattern • FluentValidation • AutoMapper • Hangfire
-Swagger • Serilog • CORS • HealthChecks
+ASP.NET Core 9 • Web API • Entity Framework Core • SQL Server • Identity
+JWT • Repository Pattern • FluentValidation • Mapster • Hangfire
+Swagger • Serilog • Geoapify API • HybridCache • CORS • HealthChecks
 ```
 
 📂 [View Repository →](https://github.com/OmarDiv/FoodFlow)
@@ -235,6 +262,7 @@ Clean Architecture • FluentValidation • Bootstrap • jQuery
 
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![LINQ](https://img.shields.io/badge/LINQ-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Dapper](https://img.shields.io/badge/Dapper-512BD4?style=flat&logo=dotnet&logoColor=white)
@@ -256,17 +284,18 @@ Clean Architecture • FluentValidation • Bootstrap • jQuery
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat&logo=azure-devops&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+
+### 🔐 Identity & Access
+
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=flat&logo=keycloak&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
 
 ### 💻 Development Environment
 
 ![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=flat&logo=visual-studio&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-
-### 📝 Other Languages
-
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
 
 </td>
 </tr>
@@ -274,22 +303,29 @@ Clean Architecture • FluentValidation • Bootstrap • jQuery
 
 ### 🏗️ Architecture & Design Patterns
 ```
-✓ Clean Architecture    ✓ SOLID Principles    ✓ Design Patterns    ✓ Repository Pattern
-✓ Unit of Work         ✓ Dependency Injection  ✓ RESTful API Design  ✓ Result Pattern
-✓ CQRS                 ✓ Mediator Pattern
+✓ Clean Architecture         ✓ Modular Monolith Architecture   ✓ Vertical Slice Architecture (VSA)
+✓ Domain-Driven Design (DDD) ✓ CQRS (MediatR)                  ✓ SOLID Principles
+✓ Repository Pattern         ✓ Unit of Work                    ✓ Result Pattern
+✓ Dependency Injection       ✓ RESTful API Design              ✓ Design Patterns
+```
+
+### 📡 Messaging & Background Processing
+```
+✓ RabbitMQ    ✓ MassTransit    ✓ Outbox Pattern    ✓ Background Jobs (Hangfire)
 ```
 
 ### 🔒 Security & Authentication
 ```
-✓ ASP.NET Identity      ✓ JWT Authentication   ✓ Refresh Tokens    ✓ OAuth
-✓ Authorization        ✓ Role-Based Access Control  ✓ Data Protection
+✓ ASP.NET Identity          ✓ JWT Authentication          ✓ Refresh Tokens
+✓ Keycloak (OAuth2/OpenID Connect)  ✓ Role-Based Access Control  ✓ Permission-Based Access
+✓ Data Protection
 ```
 
 ### ⚡ Performance & Monitoring
 ```
-✓ Hybrid Caching           ✓ Distributed Caching (Redis)    ✓ Pagination
-✓ Background Jobs (Hangfire)  ✓ Logging (Serilog)   ✓ Health Checks
-✓ Rate Limiting            ✓ Query Optimization
+✓ Hybrid Caching              ✓ Distributed Caching (Redis)   ✓ Pagination
+✓ Background Jobs (Hangfire)  ✓ Logging (Serilog, Seq)        ✓ Health Checks
+✓ Rate Limiting               ✓ Query Optimization
 ```
 
 ### 🧪 Testing & Quality
@@ -321,7 +357,7 @@ Twilio SMS  •  MQTT  •  Redis  •  ADO.NET  •  HttpClient  •  Docker Co
 
 ## 🎓 Education
 
-**Bachelor's Degree in Information Technology and Systems**  
+**Bachelor's Degree in Information Technology and Systems**
 **Port Said University** | 2021 – 2025
 
 - Graduated with **Very Good** grade 🎖️
@@ -343,7 +379,7 @@ Twilio SMS  •  MQTT  •  Redis  •  ADO.NET  •  HttpClient  •  Docker Co
 ## 🌍 Languages
 
 | Language    | Proficiency         |
-| ----------- | ------------------- |
+| ----------- | -------------------- |
 | **Arabic**  | Native 🇪🇬           |
 | **English** | Good (Technical) 💼 |
 
@@ -355,16 +391,7 @@ Twilio SMS  •  MQTT  •  Redis  •  ADO.NET  •  HttpClient  •  Docker Co
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=OmarDiv&bg_color=0d1117&color=58a6ff&line=30363d&point=58a6ff&area=true&hide_border=true)](https://github.com/OmarDiv)
 
-</div>
-
-<div align="center">
-  
-**Most Used Languages:**
-
-![C#](https://img.shields.io/badge/C%23-35%25-239120?style=for-the-badge&logo=c-sharp)
-![.NET](https://img.shields.io/badge/.NET-40%25-512BD4?style=for-the-badge&logo=dotnet)
-![SQL](https://img.shields.io/badge/SQL-15%25-CC2927?style=for-the-badge&logo=microsoft-sql-server)
-![Other](https://img.shields.io/badge/Other-10%25-gray?style=for-the-badge)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=OmarDiv&layout=compact&theme=dark&hide_border=true&bg_color=0d1117)](https://github.com/OmarDiv)
 
 </div>
 
@@ -376,12 +403,12 @@ Twilio SMS  •  MQTT  •  Redis  •  ADO.NET  •  HttpClient  •  Docker Co
 
 **I'm always open to discussing new projects, creative ideas, or opportunities to collaborate.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/omar-mohamed-713b53265)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/omar-mohamed-mamon)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OmarDiv)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://omardiv.github.io/portfolio)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omaar88mohamed@gmail.com)
 [![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://flowcv.com/resume/n1comunpab)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/01013762770)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201041204519)
 
 ---
 
